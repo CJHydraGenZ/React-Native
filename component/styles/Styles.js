@@ -2,8 +2,10 @@ import { StyleSheet } from 'react-native'
 
 export const styles = StyleSheet.create({
   container: {
+    flex: 1,
+
     marginTop: 25,
-    padding: 10
+
   },
   header: {
     fontSize: 20,
@@ -35,6 +37,8 @@ export const styles = StyleSheet.create({
 
   },
   text: {
+    alignSelf: "center",
+    color: 'white',
     fontSize: 16
   },
   wrapperCustom: {
@@ -47,5 +51,16 @@ export const styles = StyleSheet.create({
     borderWidth: StyleSheet.hairlineWidth,
     borderColor: '#f0f0f0',
     backgroundColor: '#f9f9f9'
-  }
+  },
+  fullBox: {
+    flex: 1,
+    // backgroundColor: 'blue',
+    justifyContent: "center",
+    alignItems: 'center'
+  },
+  containerAbout: {
+    flex: 1,
+    // backgroundColor: 'black'
+  },
+
 });
